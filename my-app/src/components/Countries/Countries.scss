@@ -1,0 +1,11 @@
+.block_countries{
+  padding: 5px;
+  border: 1px solid #000000;
+  & p{
+    font-size: 20px;
+  }
+}
+
+#dark .block_countries{
+  border: 1px solid #ffffff;
+}
